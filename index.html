@@ -22,7 +22,7 @@
         <div class="option">
           <label for="length">Password Length</label>
           <div class="range-container">
-            <input type="range" min="6" max="24" value="12" />
+            <input type="range" id="length" min="6" max="24" value="12" />
             <span id="length-value">12</span>
           </div>
         </div>
@@ -35,21 +35,21 @@
           <input type="checkbox" id="lowercase" checked />
         </div>
         <div class="option">
-          <label for="number">Include Number</label>
-          <input type="checkbox" id="number" checked />
+          <label for="numbers">Include Number</label>
+          <input type="checkbox" id="numbers" checked />
         </div>
         <div class="option">
-          <label for=" symbols">Include Symbols</label>
-          <input type="checkbox" id=" symbols" checked />
+          <label for="symbols">Include Symbols</label>
+          <input type="checkbox" id="symbols" checked />
         </div>
       </div>
       <button id="generate-btn">
         <i class="fas fa-key"></i> Generate Password
       </button>
       <div class="strength-container">
-        <p> Password Strength: <span id="strength-label">Medium</span></p>
+        <p>Password Strength: <span id="strength-label">Medium</span></p>
         <div class="strength-meter">
-            <div class="strength-bar"></div>
+          <div class="strength-bar"></div>
         </div>
       </div>
     </div>
